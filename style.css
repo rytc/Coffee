@@ -1,0 +1,93 @@
+body {
+    background-color: #7f4f24;
+    color: #FFF;
+    font-size: 1em;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+    margin-left: 0.5em;
+    filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+h2 {
+    font-size: 3em;
+}
+
+p {
+    margin: 1em;
+}
+
+ol {
+    display:block;
+    margin: 1em;
+    list-style: decimal;
+    list-style-type: decimal;
+}
+
+li {
+    margin: 1em;
+}
+
+a {
+    display: inline-block;
+    color: #FFF;
+    margin: 0.25em;
+}
+
+a:visited {
+    color: #c2c5aa;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.content {
+    display:block;
+    margin: 4em;
+    padding: 2em;
+    width:60%;
+    height: 50%;
+    display:grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1fr 10fr;
+}
+
+.header {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.nav {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 1em;
+    background-color: #333d29;
+    border-radius: 16px;
+    filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+.main {
+    background-color: #582f0e;
+    margin: 1em;
+    padding: 1em;
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    border-radius: 16px;
+    filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+}
+
+.aside {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+
+
